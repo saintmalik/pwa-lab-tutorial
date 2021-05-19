@@ -1,3 +1,3 @@
 # pwa-lab-tutorial
 
-[Demo URL](https://pwathometest.web.app/)
+Here is the [Demo URL](https://pwathometest.web.app/)
