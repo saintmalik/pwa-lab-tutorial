@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PWA Add To Home Screen</title>
+    <link rel="shortcut icon" sizes="32x32" href="saintmalik.jpeg">
+    <!-- Start of Web Manifest -->
+    <link rel="manifest" href="manifest.json">
+    <!-- Theme-color -->
+    <meta name="theme-color" content="#000" />
+    <link href="app.css" rel="stylesheet">
+</head>
+
+<body>
+    <button id="install_button btn-primary" hidden>Install</button>
+    <main id="root"></main>
+    <script src="app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    projectId: "pwathometest",
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+</body>
+
+</html>

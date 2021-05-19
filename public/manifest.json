@@ -1,0 +1,17 @@
+{
+    "theme_color":"#26752b",
+    "backgroung_color": "ffffff",
+    "description": "PWA Add To Home Screen",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "saintmalik.jpeg",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ],
+
+    "name": "PWA Test",
+    "short_name": "PWA Test",
+    "start_url": "/index.html?launcher=true"
+}
